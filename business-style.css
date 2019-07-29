@@ -1,0 +1,175 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #d5bbd2;
+  font-family: 'IBM Plex Sans', sans-serif;
+
+  color:white;
+  width:85vw;
+  margin: auto;
+}
+a{
+  text-decoration: none;
+}
+
+.name{
+  width:40vw;
+  /* border: 2px solid red; */
+  float:left;
+}
+svg {
+  width: 100%;
+  font-style: italic;
+  color: white !important;
+text-shadow: 4px 4px 2px white;
+}
+.name :hover{
+  text-shadow: 4px 4px 2px #760089, 5px 5px 2px #FF8C00, 6px 6px 2px #FFEF00, 7px 7px 2px #00811F, 8px 8px 2px #0044FF, 9px 9px 2px #760089;
+transition: text-shadow 1s;
+-webkit-transition: text-shadow 1s;
+}
+.header-desc{
+  /* width:20vw; */
+  margin-right: 0px;
+  /* border: 2px solid red; */
+  height: 100px;
+  text-align: right;
+  float: right;
+  padding-right: 1vw;
+}
+#view-resume {
+  font-size: 2vh;
+}
+li{
+  list-style: none;
+}
+ul{
+    padding-left: 0px;
+}
+.header-desc a{
+  font-size: 5vw;
+  padding-left: 1vw;
+  color:white;
+  text-shadow: 2px 2px 2px black;
+}
+.header-desc a :hover {
+  text-shadow: 3px 3px 5px black;
+  transition: text-shadow 1s;
+ -webkit-transition: text-shadow 1s;
+}
+.header{
+  /* border:2px solid blue; */
+  display:flow-root;
+  margin: : 0 auto;
+}
+.body .links{
+
+ clear:both;
+  font-size: 2vw;
+
+}
+.body .links ul{
+  padding-top: 2vh;;
+}
+.body .links li{
+  /* padding-top: 1vh; */
+  text-shadow: 2px 2px 1px black;
+  font-size: 3vh;
+}
+.body .links li a{
+  text-decoration: none;
+  color: pink;
+  text-shadow: 2px 2px 2px black;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3.2vh;
+}
+.links ul li a :hover{
+  text-shadow: 3px 3px 3px black;
+}
+.about{
+  width: 40vw;
+  float:left;
+}
+.about p{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+  font-size: 4.5vh;
+  text-shadow: 2px 2px 1px black;
+}
+.child{
+  height:100%;
+  transition: 1s;
+  text-align: center;
+  display: flex;
+ align-items: center;
+ justify-content: center
+}
+.child:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  transition: 2s;
+
+}
+.child h2{
+  font-size: 4vh;
+  color: white;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 1px black;
+}
+.parent{
+  height:30vh;
+  margin-bottom:5vh;
+}
+.SWAP{
+  background-image: url("alpacas.jpg");
+}
+.reverb{
+  background-image:url("reverb-screenshot.png");
+  background-size: cover;
+}
+.edurain{
+  background-image: url("graduate.jpg");
+  background-size: cover;
+  background-position: center +20%;
+}
+.hatefreefries{
+  background-image: url("hatefree-screenshot.png");
+  background-size: cover;
+}
+.affiliations h2{
+  text-shadow: 2px 2px 2px black;
+  font-size: 5vw;
+  margin:0;
+
+}
+#resume{
+  width:100%;
+  height:95vh;
+}
+#view-resume-btn{
+  position: absolute;
+  text-align: center;
+  top:0px;
+  width:20%;
+  right:22%;
+
+}
+#view-resume{
+  background-color: white;
+  font-size: 3vh;
+  color: #d5bbd2;
+  padding-left: .3vh;
+  padding-right: .3vh;
+  box-shadow: 2px 2px 2px black;
+
+
+  text-shadow: -.6px -.6px .03px rgba(0, 0, 0, .75);
+}
+
+/* div{
+border: .1px solid red!important;
+} */
