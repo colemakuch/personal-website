@@ -9,6 +9,10 @@ body{
   width:85vw;
   margin: auto;
 }
+body{
+      overflow-x: hidden;
+}
+
 a{
   text-decoration: none;
 }
@@ -22,7 +26,8 @@ svg {
   width: 100%;
   font-style: italic;
   color: white !important;
-text-shadow: 4px 4px 2px white;
+text-shadow: .25em .25em .125em white;
+
 }
 .name :hover{
   text-shadow: 4px 4px 2px #760089, 5px 5px 2px #FF8C00, 6px 6px 2px #FFEF00, 7px 7px 2px #00811F, 8px 8px 2px #0044FF, 9px 9px 2px #760089;
@@ -30,6 +35,7 @@ transition: text-shadow 1s;
 -webkit-transition: text-shadow 1s;
 }
 .header-desc{
+  position:fixed;
   /* width:20vw; */
   margin-right: 0px;
   /* border: 2px solid red; */
@@ -38,22 +44,24 @@ transition: text-shadow 1s;
   float: right;
   padding-right: 1vw;
 }
-#view-resume {
-  font-size: 2vh;
-}
+
 li{
   list-style: none;
 }
 ul{
     padding-left: 0px;
 }
-.header-desc a{
+#social-buttons{
+  position:fixed;
+  left: 0;
+}
+#social-buttons a{
   font-size: 5vw;
   padding-left: 1vw;
   color:white;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: .125em .125em  black;
 }
-.header-desc a :hover {
+#social-buttons a :hover {
   text-shadow: 3px 3px 5px black;
   transition: text-shadow 1s;
  -webkit-transition: text-shadow 1s;
@@ -146,28 +154,35 @@ ul{
   margin:0;
 
 }
+#affil{
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 2vh;
+}
 #resume{
   width:100%;
   height:95vh;
 }
 #view-resume-btn{
-  position: absolute;
-  text-align: center;
-  top:0px;
-  width:20%;
-  right:22%;
+position:inline;
+float:right;
+width:100%;
+text-align: right;
+
+  /* background-color: white; */
+
 
 }
 #view-resume{
+
   background-color: white;
   font-size: 3vh;
   color: #d5bbd2;
-  padding-left: .3vh;
-  padding-right: .3vh;
-  box-shadow: 2px 2px 2px black;
+  /* padding-left: .3vh; */
+  /* box-shadow: 2px 2px 2px black; */
 
 
-  text-shadow: -.6px -.6px .03px rgba(0, 0, 0, .75);
+  text-shadow: -.6px -.6px .0025em rgba(0, 0, 0, .75);
 }
 
 /* div{
