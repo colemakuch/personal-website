@@ -149,7 +149,7 @@ ul{
   background-size: cover;
 }
 .affiliations h2{
-  text-shadow: 2px 2px 2px black;
+  /* text-shadow: 2px 2px 2px black; */
   font-size: 5vw;
   margin:0;
 
