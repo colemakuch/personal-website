@@ -160,8 +160,8 @@ ul{
   margin-bottom: 2vh;
 }
 #resume{
-  width:100%;
   height:95vh;
+  width: 85vw;
 }
 #view-resume-btn{
 position:inline;
