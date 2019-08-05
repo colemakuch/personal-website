@@ -1,57 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-      <title>Cole Makuch</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <script src="https://use.fontawesome.com/ef376a6daf.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=BioRhyme|Bungee+Shade|Lato|Source+Sans+Pro" rel="stylesheet">
-        <link rel="icon" href="icon.png">
-    </head>
-    <body>
-      <div class="header">
-        <a href="index.html" id="home-link"><h3>Cole Makuch</h3></a>
-        <ul id="nav-links">
-          <li><a href="about.html">About</a></li>
-          <li><a href="music.html">Music</a></li>
-          <li><a href="cole_makuch_resume.pdf">Résumé</a></li>
-        </ul>
-      </div>
-      <div class="body">
-      <h2>Music</h2>
-      <p>I play guitar and bass in a number of groups on campus. I'm currently the house guitarist for the
-        <a href="https://www.facebook.com/WUKidsOnCampus/">Kids on Campus</a> sketch comedy
-        group at WashU (live recording below), and play bass and guitar for another student band: Doug Addicts (future releases in the works).
-      </p>
-    </br>
-    <audio id="song" controls="controls">
-        <source src="Thick.m4a" type="audio/mpeg">
-        Your browser does not support the HTML5 audio element.
-    </audio>
-  </br>
-      <p>I'm currently in the process of recording a solo album. I plan to periodically release new material on my <a href="https://colemakuch.bandcamp.com/releases">Bandcamp</a>,
-        so check back to stay in the loop with new material.
-      </p>.
-    <iframe style="border: 0; width: 400px; height: 274px;" src="https://bandcamp.com/EmbeddedPlayer/album=3647468969/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://colemakuch.bandcamp.com/album/a-work-in-progress">A Work in Progress by Cole Makuch</a></iframe>
-      <h2>Book Me</h2>
-      <p>
-    I  love collaborating
-      with other musicans throughout the writing, recording, and production process. Don't hesitate to reach out with potiential projects for collaboration.
-    </p>
-<h2>Equipment</h2>
-<p>I've been buying and selling guitars, basses, amplifiers, effects pedals, and other musical equipment for almost as long as I've been playing. All of my gear currently available for sale is listed on my Reverb.com shop, link in the icon below. Don't see something you're interested? Looking to talk more gear? Don't hesitate to reach out!
-</p>
-</br>
-      <a href="https://reverb.com/shop/gear-outlet-5"><img src="http://images.reverb.com/image/upload/shop-button-large-og_hgxmsd.png" alt="Shop My Store on Reverb"></a>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+<head>
 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="description" content="Cole Makuch's Professional Website">
+  <meta name="author" content="Cole Makuch">
+
+  <link rel="icon"
+        type="image/png"
+        href="favicon-32x32.png">
+
+  <title>Cole Makuch Music</title>
+
+
+  <script src="https://kit.fontawesome.com/6022f6aee1.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="music.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,400,400i,700,700i&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="music-style.css" type="text/css">
+
+</head>
+
+<body>
+
+  <div class="links">
+<h1 id="name">COLE MAKUCH</h1>
+<h2><a href="https://colemakuch.bandcamp.com/album/a-work-in-progress">BANDCAMP</a></h2>
+<h2><a href="https://colemakuch.bandcamp.com/album/doug-addicts-rough-takes">DOUG ADDICTS</a></h2>
+<h2><a href="https://colemakuch.bandcamp.com/album/a-work-in-progress">LESSONS</a></h2>
+<h2><a href="https://www.facebook.com/cole.makuch">FACEBOOK</a></h2>
+
+</div>
+<div class="wrapper">
+<div class="player">
+  <audio id="player" src="retirement.mp3"></audio>
+  <!-- <div>
+    <button onclick="document.getElementById('player').play()">START</button>
+    <button onclick="document.body.style.backgroundColor = "yellow"">CHange</button>
+    <button onclick="document.getElementById('player').pause()">STOP</button>
+    <button onclick="document.getElementById('player').volume += 0.1">+</button>
+    <button onclick="document.getElementById('player').volume -= 0.1">-</button>
+  </div> -->
+
+<button id="play-button" onclick="play()">PLAY</button>
+<button id="pause-button" onclick="pause()">PAUSE</button>
+</div>
+</div>
+<script>
+function play() {
+  document.body.style.backgroundColor = "black";
+  document.getElementById('player').play();
+  document.getElementById('name').style.color = "white";
+  document.getElementById("play-button").style.display = "none";
+  document.getElementById("pause-button").style.display = "inline-block";
+}
+function pause() {
+  document.body.style.backgroundColor = "#fea49f";
+  document.getElementById('player').pause();
+  document.getElementById("pause-button").style.display = "none";
+  document.getElementById("play-button").style.display = "inline-block";
+}
+
+</script>
 
 </body>
+
 </html>
