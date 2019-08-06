@@ -27,6 +27,7 @@
 
 <body>
 
+
   <div class="links">
 <h1 id="name">COLE MAKUCH</h1>
 <h2><a href="https://colemakuch.bandcamp.com/album/a-work-in-progress">BANDCAMP</a></h2>
@@ -35,9 +36,12 @@
 <h2><a href="https://www.facebook.com/cole.makuch">FACEBOOK</a></h2>
 
 </div>
+
+
 <div class="wrapper">
 <div class="player">
   <audio id="player" src="retirement.mp3"></audio>
+
   <!-- <div>
     <button onclick="document.getElementById('player').play()">START</button>
     <button onclick="document.body.style.backgroundColor = "yellow"">CHange</button>
@@ -45,13 +49,23 @@
     <button onclick="document.getElementById('player').volume += 0.1">+</button>
     <button onclick="document.getElementById('player').volume -= 0.1">-</button>
   </div> -->
-
+  <div id ="container">
+    <div class ="animate">
+      <img src="point.png" id="hand">
+    </div>
+  </div>
 <button id="play-button" onclick="play()">PLAY</button>
 <button id="pause-button" onclick="pause()">PAUSE</button>
+
+
 </div>
 </div>
+
+
 <script>
 function play() {
+  document.getElementById('hand').style.marginTop = "10vh";
+  document.getElementById('hand').style.height = "100%";
   document.body.style.backgroundColor = "black";
   document.getElementById('player').play();
   document.getElementById('name').style.color = "white";
@@ -64,7 +78,10 @@ function pause() {
   document.getElementById('player').pause();
   document.getElementById("pause-button").style.display = "none";
   document.getElementById("play-button").style.display = "inline-block";
+  document.getElementById('hand').style.marginTop = "100vh";
+  document.getElementById('hand').style.height = "0%";
 }
+
 
 </script>
 
