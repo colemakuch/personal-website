@@ -64,15 +64,18 @@
 
 <script>
 function play() {
-  document.getElementById('hand').style.marginTop = "10vh";
-  document.getElementById('hand').style.height = "100%";
-  document.body.style.backgroundColor = "black";
+  // document.getElementById('hand').style.marginTop = "10vh";
+  // document.getElementById('hand').style.height = "100%";
+  document.body.style.animation = "colorchange 10s infinite";
+  document.body.style.WebkitAnimation = "colorchange 10s infinite";
   document.getElementById('player').play();
   document.getElementById('name').style.color = "white";
   document.getElementById("play-button").style.display = "none";
   document.getElementById("pause-button").style.display = "inline-block";
 }
 function pause() {
+  document.body.style.animation = "";
+  document.body.style.WebkitAnimation = "";
   document.body.style.backgroundColor = "#fea49f";
   document.getElementById('name').style.color = "black";
   document.getElementById('player').pause();

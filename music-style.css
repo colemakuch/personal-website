@@ -7,8 +7,28 @@ a:hover,button:hover{
 }
 body{
   background-color: #fea49f;
+  /* animation: colorchange 20s;
+-webkit-animation: colorchange 20s; */
 
+}
+@keyframes colorchange
+{
+  0%   {background: #960F0F;}
+  15%  {background: #8C6463;}
+  40%  {background: #76A0ED;}
+  70%  {background: #FFFDBA;}
+  90% {background: #B86FBC;}
+  100%   {background: #960F0F;}
+}
 
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background: #960F0F;}
+  15%  {background: #8C6463;}
+  40%  {background: #76A0ED;}
+  70%  {background: #FFFDBA;}
+  90% {background: #B86FBC;}
+  100%   {background: #960F0F;}
 }
 .links a{
   text-decoration: none;
