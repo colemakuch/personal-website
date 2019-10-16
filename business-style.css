@@ -4,8 +4,9 @@ html{
 body{
   background-color: #d5bbd2;
   background-color: rgb(137,197,246);
-  background-color: #168BE3;
-  background-color: #89c5f6;
+  background-color: rgb(227,202,130);
+/*   background-color: #168BE3;
+  background-color: #89c5f6; */
   font-family: 'IBM Plex Sans', sans-serif;
   color:white;
   width:85vw;
@@ -168,6 +169,7 @@ position:inline;
 float:right;
 width:100%;
 text-align: right;
+  color: rgb(227,202,130);
 
   /* background-color: white; */
 
