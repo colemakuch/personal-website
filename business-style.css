@@ -179,8 +179,9 @@ text-align: right;
 
   background-color: white;
   font-size: 3vh;
-  color: rgb(137,197,246);
-  color: #168BE3;
+/*   color: rgb(137,197,246);
+  color: #168BE3; */
+    color: rgb(227,202,130);
   /* padding-left: .3vh; */
   /* box-shadow: 2px 2px 2px black; */
 
