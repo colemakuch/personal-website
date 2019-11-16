@@ -116,9 +116,9 @@ ul{
  justify-content: center
 }
 .child:hover{
-  transform: scale(1.05);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-  transition: 2s;
+  transform: scale(1.025);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: .5s;
 
 }
 .child h2{
@@ -143,10 +143,6 @@ ul{
   background-image: url("graduate.jpg");
   background-size: cover;
   background-position: center +20%;
-}
-.hatefreefries{
-  background-image: url("hatefree-screenshot.png");
-  background-size: cover;
 }
 .affiliations h2{
   /* text-shadow: 2px 2px 2px black; */
