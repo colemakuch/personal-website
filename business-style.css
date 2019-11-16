@@ -60,9 +60,9 @@ ul{
   /* text-shadow: .125em .125em  black; */
 }
 #social-buttons a :hover {
-  text-shadow: 3px 3px 5px black;
-  transition: text-shadow 1s;
- -webkit-transition: text-shadow 1s;
+  text-shadow: 3px 3px 5px #555;
+  transition: text-shadow .5s;
+ -webkit-transition: text-shadow .5s;
 }
 .header{
   /* border:2px solid blue; */
