@@ -8,7 +8,7 @@ a:hover,button:hover{
 body{
   /* background-color: #fea49f; */
     background-color: rgb(198,237,217);
-    background-color: rgb(237,127,147);
+    /* background-color: rgb(237,127,147); */
   /* animation: colorchange 20s;
 -webkit-animation: colorchange 20s; */
 
@@ -46,7 +46,8 @@ a{
   text-decoration: none;
   /* color: #007f4f; */
   color: rgb(198,237,217);
-  color: white;
+  color: rgb(237,127,147);
+
   font-weight: bold;
   font-size: 10vw;
 }
