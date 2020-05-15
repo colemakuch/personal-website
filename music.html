@@ -29,12 +29,14 @@
 
 
   <div class="links">
-<h1 id="name">COLE MAKUCH</h1>
-<h2><a href="https://colemakuch.bandcamp.com/album/a-work-in-progress">BANDCAMP</a></h2>
-<h2><a href="https://colemakuch.bandcamp.com/album/doug-addicts-rough-takes">DOUG ADDICTS</a></h2>
-<h2><a href="https://colemakuch.bandcamp.com/album/a-work-in-progress">LESSONS</a></h2>
-<h2><a href="https://www.facebook.com/cole.makuch">FACEBOOK</a></h2>
+    <ul>
+<li><a href="index.html">cole makuch</a></li>
 
+<li><a href="https://colemakuch.bandcamp.com/album/a-work-in-progress">bandcamp</a></li>
+<!-- <h2><a href="https://colemakuch.bandcamp.com/album/doug-addicts-rough-takes">DOUG ADDICTS</a></h2> -->
+<li><a href="https://colemakuch.bandcamp.com/album/a-work-in-progress">lessons</a></li>
+<li><a href="https://www.facebook.com/cole.makuch">facebook</a></li>
+</ul>
 </div>
 
 
@@ -54,8 +56,8 @@
       <img src="point.png" id="hand">
     </div>
   </div>
-<button id="play-button" onclick="play()">PLAY</button>
-<button id="pause-button" onclick="pause()">PAUSE</button>
+<button id="play-button" onclick="play()">play</button>
+<button id="pause-button" onclick="pause()">pause</button>
 
 
 </div>
@@ -66,18 +68,19 @@
 function play() {
   // document.getElementById('hand').style.marginTop = "10vh";
   // document.getElementById('hand').style.height = "100%";
-  document.body.style.animation = "colorchange 10s infinite";
-  document.body.style.WebkitAnimation = "colorchange 10s infinite";
+  // document.body.style.animation = "colorchange 10s infinite";
+  // document.body.style.WebkitAnimation = "colorchange 10s infinite";
   document.getElementById('player').play();
-  document.getElementById('name').style.color = "white";
+  // document.getElementById('name').style.color = "white";
   document.getElementById("play-button").style.display = "none";
   document.getElementById("pause-button").style.display = "inline-block";
 }
 function pause() {
-  document.body.style.animation = "";
-  document.body.style.WebkitAnimation = "";
-  document.body.style.backgroundColor = "#fea49f";
-  document.getElementById('name').style.color = "black";
+  // document.body.style.animation = "";
+  // document.body.style.WebkitAnimation = "";
+  // document.body.style.backgroundColor = "#fea49f";
+  document.body.style.backgroundColor = "rgb(237,127,147)";
+  // document.getElementById('name').style.color = "black";
   document.getElementById('player').pause();
   document.getElementById("pause-button").style.display = "none";
   document.getElementById("play-button").style.display = "inline-block";
