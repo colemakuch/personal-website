@@ -1,0 +1,238 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  /* background-color: #d5bbd2;
+  background-color: rgb(137,197,246);
+  background-color: rgb(227,202,130); */
+/*   background-color: #168BE3;
+  background-color: #89c5f6; */
+  background-color: #fff;
+  /* background-color: rgb(198,237,217); */
+  font-family: 'IBM Plex Sans', sans-serif;
+  /* color:white; */
+    /* color: rgb(237,127,147) !important; */
+  color: #444;
+
+
+
+  width:85vw;
+  margin: auto;
+}
+body{
+      overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+.name{
+  width:40vw;
+
+  /* border: 2px solid red; */
+  float:left;
+}
+svg {
+  width: 100%;
+  font-style: italic;
+  /* color determined in html */
+  text-shadow: .4em .4em .125em white;
+}
+
+
+.name :hover{
+  text-shadow: 2px 2px 2px #760089, 3px 3px 2px #FF8C00, 4px 4px 2px #FFEF00, 5px 5px 5px #00811F, 6px 6px 2px #0044FF, 7px 7px 2px #760089;
+transition: text-shadow .2s;
+-webkit-transition: text-shadow .2s;
+}
+
+
+li{
+  list-style: none;
+}
+ul{
+    padding-left: 0px;
+}
+#social-buttons{
+  position:fixed;
+  left: 0;
+}
+#social-buttons a{
+  font-size: 400%;
+  padding-left: 1vw;
+  /* color: #000; */
+  /* color: rgb(237,127,147); */
+  color: #666;
+  /* text-shadow: .125em .125em  black; */
+}
+#social-buttons a :hover {
+  text-shadow: 1px 1px 2px #222;
+  transition: text-shadow .2s;
+ -webkit-transition: text-shadow .2s;
+}
+.header{
+  /* border:2px solid blue; */
+  display:flow-root;
+  margin: : 0 auto;
+}
+.body .links{
+padding-top: 2vw;
+ clear:both;
+  font-size: 2vw;
+
+}
+.links-wrapper{
+  width: 40vw;
+  float:left;
+  display: block;
+}
+
+
+.body .links li{
+  /* padding-top: 1vh; */
+  /* text-shadow: 2px 2px 1px black; */
+  font-size: 2.5vh;
+}
+a{
+  text-decoration: none;
+  /* color: #A7224A; */
+  color: rgb(237,127,147);
+}
+
+.links a :hover{
+  text-shadow: 3px 3px 3px black!important;
+}
+.about{
+  width: 40vw;
+  float:left;
+}
+.about p{
+  margin-top: 0;
+  margin-bottom: 0;
+  /* font-style: italic; */
+  font-size: 2vw;
+  /* text-shadow: 2px 2px 1px black; */
+}
+.child{
+  height:100%;
+  transition: .2s;
+  text-align: center;
+  display: flex;
+ align-items: center;
+ justify-content: center
+}
+.child:hover{
+  transform: scale(1.025);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  transition: .2s;
+
+}
+.child h2{
+  font-size: 4vh;
+  color: white;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* text-shadow: 2px 2px 1px black; */
+}
+.parent{
+  height:30vh;
+  margin-bottom:5vh;
+}
+.SWAP{
+  background-image: url("alpacas.jpg");
+}
+.reverb{
+  background-image:url("reverb-screenshot.png");
+  background-size: cover;
+}
+.edurain{
+  background-image: url("graduate.jpg");
+  background-size: cover;
+  background-position: center +20%;
+}
+.affiliations h2{
+  /* text-shadow: 2px 2px 2px black; */
+  font-size: 5vw;
+  margin:0;
+
+}
+#affil{
+  /* font-style: italic; */
+  font-weight: 400;
+  margin-bottom: 2vh;
+}
+#resume{
+  width:100%;
+  height:95vh;
+  width: 85vw;
+}
+#view-resume-btn{
+position:inline;
+float:right;
+width:100%;
+text-align: right;
+  /* color: rgb(227,202,130); */
+
+  /* background-color: white; */
+
+
+}
+#view-resume{
+
+  background-color: white;
+  font-size: 3vh;
+/*   color: rgb(137,197,246);
+  color: #168BE3; */
+    color: rgb(227,202,130);
+    color: rgb(237,127,147);
+  /* padding-left: .3vh; */
+  /* box-shadow: 2px 2px 2px black; */
+
+
+  /* text-shadow: -.6px -.6px .0025em rgba(0, 0, 0, .75); */
+}
+
+/* div{
+border: .1px solid red!important;
+} */
+@media only screen and (max-width: 900px) {
+  .body .links li{
+    /* padding-top: 1vh; */
+    /* text-shadow: 2px 2px 1px black; */
+    font-size: 4.3vw;
+  }
+  .body .links li a{
+    text-decoration: none;
+    color: rgb(237,127,147);
+    /* text-shadow: 2px 2px 2px black; */
+    font-size: 4.5vw;
+  }
+  .about p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+    font-size: 4vw;
+    /* text-shadow: 2px 2px 1px black; */
+  }
+  #social-buttons a{
+    font-size: 150%;
+    padding-left: 1vw;
+    color: #666;
+    /* text-shadow: .125em .125em  black; */
+  }
+  .parent{
+    height:20vh;
+    margin-bottom:5vh;
+  }
+  #affil{
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 3vh;
+  }
+  .name{
+    width:70vw;
+    /* border: 2px solid red; */
+    float:left;
+  }
+}

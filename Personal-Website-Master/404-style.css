@@ -1,0 +1,29 @@
+html{
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-shadow: 2px 2px 2px black;
+}
+body{
+  background-color: black;
+  color: white;
+  background-image: url("jimmy-dad.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1, h2{
+  text-align: center;
+}
+h1{
+  font-size: 10vh;
+  margin-bottom: 1vh;
+}
+h2{
+  font-size:4vh;
+  margin-bottom: .5vh;
+}
+a{
+  color: #007f4f;
+}
+.text-container{
+  height:20vh;
+  margin-top: 30vh;
+}

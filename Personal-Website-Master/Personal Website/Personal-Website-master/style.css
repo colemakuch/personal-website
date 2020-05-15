@@ -1,0 +1,128 @@
+.linkedin-headshot{
+  border-radius:50%;
+  border: 0px solid white;
+  width:100%;
+  box-shadow: 0px 0px 10px #888;
+  /*position: relative;
+  bottom:-2em;*/
+}
+#headshot-container{
+  width:10%;
+  margin:0px auto;
+}
+#home-link{
+  color:black;
+  float:left;
+  margin-left:3px;
+  margin-top: 3px;
+
+}
+#landing{
+  font-size: 800% !important;
+}
+ul{
+  list-style-type: none;
+  text-align: center;
+  padding:0px;
+  font-family: 'BioRhyme','Source Sans Pro', 'Lato', Ariel, sans-serif;
+}
+body{
+ background-image: url(upfeathers.png);
+ font-family: 'Lato', sans-serif;
+}
+ h1{
+  font-size: 10em;
+}
+.body h3{
+  font-size:1.5em;
+  font-family: 'BioRhyme', 'Lato',Ariel,sans-serif !important;
+}
+.body{
+  width: 60%;
+  margin-left: 20%;
+  /*background-color: HSLA(144, 15%, 97%, .5);*/
+  /*box-shadow:1px 1px 1px #393E41;*/
+  margin-top:1em;
+  padding:5px;
+text-align: center;
+}
+a, h3 :hover{
+  text-decoration: none !important;
+}
+#nav-links li{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  font-size: 1.5em;
+}
+a{
+  color:#E53D00;
+  text-transform: lowercase;
+  font-family: 'BioRhyme','Source Sans Pro', 'Lato', Ariel, sans-serif;
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,hgroup{
+  font-family: 'Bungee Shade',sans-serif;
+  text-shadow: 0px 0px 1px black;
+}
+body p{
+  font-family: 'BioRhyme','Source Sans Pro','Lato',sans-serif;
+  width: 90%;
+  margin: 0px auto;
+
+}
+h3 :hover{
+  text-decoration: none;
+}
+#nav-links :hover, #home-link :hover{
+  color:#E53D00;
+  text-shadow: 5px 5px 4px #21A0A0;
+  text-decoration: none !important;
+}
+p :hover{
+  text-decoration: none !important;
+  color:#E53D00;
+  text-shadow: 3px 3px 4px #21A0A0;
+}
+#nav-links{
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+  text-align: center;
+  padding:0px;
+}
+#social-links li{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 2%;
+  margin-left: 2%;
+  font-size: 500%;
+}
+/*#social-links{
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+  position:fixed;
+  padding: 0px;
+  bottom:10px;
+}*/
+#social-links :hover{
+  color:#D3F8E2;
+  text-shadow: 3px 3px 4px #21A0A0;
+}
+#song{
+  margin:3px auto;
+}
+
+#description{
+  text-align: center;
+  margin-top:10%;
+}
+hgroup h2{
+  font-size: 3em;
+}
+h2{
+  font-size:3em;
+}
