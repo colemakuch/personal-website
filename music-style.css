@@ -1,134 +1,63 @@
 html{
   font-family: 'IBM Plex Sans', sans-serif;
-  cursor: url("tiny-hand.png"), auto!important;
+  cursor: url("tiny-hand.png"), auto;
 }
 a:hover,button:hover{
-  cursor: url("tiny-hand.png"), auto!important;
+  cursor: url("tiny-hand.png"), auto;
 }
 body{
-  /* background-color: #fea49f; */
-    background-color: rgb(198,237,217);
-    /* background-color: rgb(237,127,147); */
-  /* animation: colorchange 20s;
--webkit-animation: colorchange 20s; */
-
+  background-color: rgb(195,141,193);
 }
 
-@keyframes colorchange
-{
-  /* 0%   {background: #960F0F;}
-  15%  {background: #8C6463;}
-  40%  {background: #76A0ED;}
-  70%  {background: #FFFDBA;}
-  90% {background: #B86FBC;}
-  100%   {background: #960F0F;} */
-}
-
-@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
-/
-{
-  /* 0%   {background: #960F0F;}
-  15%  {background: #8C6463;}
-  40%  {background: #76A0ED;}
-  70%  {background: #FFFDBA;}
-  90% {background: #B86FBC;}
-  100%   {background: #960F0F;} */
-
-}
-ul{
-  list-style-type: none;
-width: 100vw;
-}
 li{
-    display: inline;
+  list-style-type: none;
+  display: block;
+  margin: 20px auto;
 }
 a{
   text-decoration: none;
-  /* color: #007f4f; */
-  color: rgb(198,237,217);
-  color: rgb(237,127,147);
-
+  color: rgb(77,35,134);
   font-weight: bold;
-  font-size: 10vw;
+  font-size: 30px;
+  text-shadow: 2px 2px 0px rgb(246,213,158);
 }
 a:hover{
-  /* margin-left: 10px; */
   text-transform: uppercase;
-  /* transition: 1s; */
-}
-.wrapper{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+  text-shadow: 5px 5px 10px rgb(246,213,158);
 }
 
-#play-button,#pause-button{
-background: #007f4f;
 
+#play-button{
+background: none;
 color:white;
-cursor: pointer;
-padding: 2vh 4vw;
-display: inline-block;
-text-transform: uppercase;
+padding: 5px 5px;
+/* text-transform: uppercase; */
 letter-spacing: 1px;
-/* font-weight: 700; */
-font-size: 10vw;
+font-size: 30px;
 outline: none;
-position: relative;
 -webkit-transition: all 0.3s;
--moz-transition: all 0.3s;
-transition: all 0.3s;
+-moz-transition: all 0.1s;
+transition: all 0.1s;
 border: 0px;
 }
 #play-button:hover{
 	color: #fff;
-	background: #00a0a0;
+	text-shadow: 0px 0px 5px rgb(246,213,158);
 }
 
-#pause-button:hover{
-
-	color: #fff;
-	background: #00a0a0;
-}
-
-#pause-button{
-display:none;
-}
-
-#thefile {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 100;
-}
-
-#canvas {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-
-audio #audio{
-  position: fixed;
-  left: 10px;
-  bottom: 10px;
-  width: calc(100% - 20px);
+#bass-pic{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 80%;
 }
 #hand{
   height: 0%;
   position:absolute;
   display: inline;
   margin-top: 100vh;
-  /* display: none; */
      -webkit-transition: 0.5s ease-in-out;
      -moz-transition: 0.5s ease-in-out;
      -o-transition: 0.5s ease-in-out;
      transition: 0.5s ease-in-out;
    }
-
-/* div{
-  border: 1px solid red!important;
-} */

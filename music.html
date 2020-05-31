@@ -17,8 +17,6 @@
 
   <script src="https://kit.fontawesome.com/6022f6aee1.js"></script>
   <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script language="JavaScript" type="text/javascript" src="music.js"></script>
-
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,400,400i,700,700i&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="music-style.css" type="text/css">
@@ -28,65 +26,37 @@
 <body>
 
 
-  <div class="links">
-    <ul>
-<li><a href="index.html">cole makuch</a></li>
-
-<li><a href="https://colemakuch.bandcamp.com/album/a-work-in-progress">bandcamp</a></li>
-<!-- <h2><a href="https://colemakuch.bandcamp.com/album/doug-addicts-rough-takes">DOUG ADDICTS</a></h2> -->
-<li><a href="https://colemakuch.bandcamp.com/album/a-work-in-progress">lessons</a></li>
-<li><a href="https://www.facebook.com/cole.makuch">facebook</a></li>
-</ul>
-</div>
 
 
-<div class="wrapper">
-<div class="player">
-  <audio id="player" src="retirement.mp3"></audio>
-
-  <!-- <div>
-    <button onclick="document.getElementById('player').play()">START</button>
-    <button onclick="document.body.style.backgroundColor = "yellow"">CHange</button>
-    <button onclick="document.getElementById('player').pause()">STOP</button>
-    <button onclick="document.getElementById('player').volume += 0.1">+</button>
-    <button onclick="document.getElementById('player').volume -= 0.1">-</button>
-  </div> -->
-  <div id ="container">
-    <div class ="animate">
-      <img src="point.png" id="hand">
+<div class="links">
+  <ul>
+    <li><a href="index.html">cole makuch</a></li>
+    <li><a href="https://colemakuch.bandcamp.com/album/a-work-in-progress">bandcamp</a></li>
+    <li><a href="https://colemakuch.bandcamp.com/album/a-work-in-progress">lessons</a></li>
+    <li><a href="https://www.facebook.com/cole.makuch">facebook</a></li>
+    <li><div class="player">
+      <audio id="player" src="retirement.mp3"></audio>
+      <button id="play-button" onclick="play()">play</button>
     </div>
-  </div>
-<button id="play-button" onclick="play()">play</button>
-<button id="pause-button" onclick="pause()">pause</button>
+  </li>
+  </ul>
+</div>
+
+<img id="bass-pic" src="bass_compressed.png">
 
 
-</div>
-</div>
 
 
 <script>
 function play() {
-  // document.getElementById('hand').style.marginTop = "10vh";
-  // document.getElementById('hand').style.height = "100%";
-  // document.body.style.animation = "colorchange 10s infinite";
-  // document.body.style.WebkitAnimation = "colorchange 10s infinite";
-  document.body.style.backgroundColor = "rgb(237,127,147)";
   document.getElementById('player').play();
-  // document.getElementById('name').style.color = "white";
-  document.getElementById("play-button").style.display = "none";
-  document.getElementById("pause-button").style.display = "inline-block";
+  document.getElementById("play-button").innerHTML = "pause";
+  document.getElementById("play-button").onclick = function() { pause() };
 }
 function pause() {
-  // document.body.style.animation = "";
-  // document.body.style.WebkitAnimation = "";
-  // document.body.style.backgroundColor = "#fea49f";
-  document.body.style.backgroundColor = "rgb(198,237,217)";
-  // document.getElementById('name').style.color = "black";
   document.getElementById('player').pause();
-  document.getElementById("pause-button").style.display = "none";
-  document.getElementById("play-button").style.display = "inline-block";
-  document.getElementById('hand').style.marginTop = "100vh";
-  document.getElementById('hand').style.height = "0%";
+  document.getElementById("play-button").innerHTML = "play";
+  document.getElementById("play-button").onclick = function() { play() };
 }
 
 
