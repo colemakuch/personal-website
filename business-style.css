@@ -216,6 +216,8 @@ text-align: right;
   .name{
     width:70vw;
     float:left;
-    text-shadow: none;
+  }
+  .name, svg{
+        text-shadow: none!important;
   }
 }
