@@ -179,21 +179,18 @@ text-align: right;
 }
 @media only screen and (max-width: 900px) {
   .body .links li{
-    /* padding-top: 1vh; */
-    /* text-shadow: 2px 2px 1px black; */
     font-size: 4.3vw;
   }
   .body .links li a{
     text-decoration: none;
     color: rgb(237,127,147);
-    /* text-shadow: 2px 2px 2px black; */
+    color: blue;
     font-size: 4.5vw;
   }
   .about p{
     margin-top: 0;
     margin-bottom: 0;
     font-size: 4vw;
-    /* text-shadow: 2px 2px 1px black; */
   }
   .links p{
     font-size: 4vw;
@@ -204,6 +201,7 @@ text-align: right;
     font-size: 150%;
     padding-left: 1vw;
     color: #666;
+    color: white;
     /* text-shadow: .125em .125em  black; */
   }
   .parent{
@@ -218,5 +216,6 @@ text-align: right;
   .name{
     width:70vw;
     float:left;
+    text-shadow: none;
   }
 }
