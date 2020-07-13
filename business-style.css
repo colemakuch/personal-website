@@ -92,6 +92,9 @@ a{
   color: rgb(237,127,147);
   color: blue;
 }
+a:hover{
+  text-decoration: underline;
+}
 
 .links a :hover{
   text-shadow: 3px 3px 3px black!important;
