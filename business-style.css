@@ -24,7 +24,7 @@ body{
 
 
 .name{
-  width:40vw;
+  width:23vw;
   float:left;
 }
 svg {
@@ -112,7 +112,7 @@ a:hover{
   margin-top: 0;
   margin-bottom: 0;
   /* font-style: italic; */
-  font-size: 2vw;
+  font-size: 1.7vw;
   /* text-shadow: 2px 2px 1px black; */
 }
 .child{
