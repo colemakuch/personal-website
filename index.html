@@ -31,44 +31,121 @@
 </head>
 
 <body>
-  <!-- <a id="view-resume-btn" href="http://colemakuch.com/cole-makuch-resume.pdf"><span id="view-resume">View Resume</span></a> -->
-  <!-- <li id="social-buttons">
-  <ul><a href="https://www.facebook.com/cole.makuch"><i class="fab fa-facebook-square"></i></a></ul>
-  </ul><a href="https://www.linkedin.com/in/colemakuch/"><i class="fab fa-linkedin"></i></a></ul>
-  <ul><a href="mailto:colemakuch@gmail.com"><i class="fas fa-envelope-square"></i></a></ul>
-</li> -->
-  <div class="header">
 
+  <div class="header">
     <div class="name">
       <svg viewBox="0 0 80 18">
-  <text x="0" y="17" fill="blue">Cole</text>
+          <text x="0" y="17" fill="blue">Cole</text>
       </svg>
       <svg viewBox="0 0 70 18">
   <text x="0" y="15" fill="blue">Makuch</text>
       </svg>
     </div>
+  </div>
+
 
 
 </div>
 
 <div class="body">
   <div class="about">
-      <p>
-        <!-- I study Economics, Philosophy, Art, and Computer Science at Washington University in St. Louis. -->
-        Here's my <a href="http://colemakuch.com/cole-makuch-resume.pdf" target="_blank">resume</a>.
-        <!-- , and here's my <a href="music.html">music portfolio</a>. -->
+      <ul>
+        <li>I make things that are:</li>
+          <li><button class="collapsible">more colorful,</button>
+            <div class="content">
+              <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/568243978?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="born a worm final.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+              <p><b>Prompt:</b> do something with color.</p>
+                <br>
+              <p><b>Intent:</b> use colors to increase the intelligibility of the harmonic complexity of a musical arrangement.</p>
+              <br>
+              <p><b>Process:</b></p>
+              <ol>
+                <li>1. I arranged and multi-track recorded an a capella version of the song 'Born a Worm' by Dan Reeder.</li>
+                <li>2. I converted each voice recording into represetative MIDI data (a digital piano roll, if you will) using Ableton Live's native audio-to-MIDI conversion. A good degree of manual correction was required for each part, but after doing so I ended up with a software representation like <a href="https://drive.google.com/file/d/1OKaUZEublRE_NcoxlI9laPHxe6idv-4O/view?usp=sharing" target="_blank">this</a> for each voice.</li>
+                <li>3. I modified a version of <a href="http://omino.com/pixelblog/2011/12/26/ae-hello-again-midi/" target="_blank">this script</a> to import the MIDI representation of each voice into After Effects, which created keyframes in-time with the recording for the pitch, velocity (intensity), and duration of each note. <a href="https://drive.google.com/file/d/1l0noRgZPGozYeT2PWEi32VV4iGE2f5YR/view?usp=sharing" target="_blank">Here</a> is what that looked like in After Effects, and <a href="https://drive.google.com/file/d/1wT7Cvi1feeOr1-eAH7TRZljdsnmyAS3x/view?usp=sharing" target="_blank">here</a> is the modified script I used; for some reason the original script didn't run on my Mac.</li>
+                <li>4. I assigned the hue parameter for the box representing each voice so that every ascending note (C, C#, D, etc) corresponded to a 30 degree rotation on the color wheel, so every C was the same color, every F# was the same color, etc., for all notes. I assigned the velocity parameter for each voice to a scale multiplier of its representative box, so that box size responded dynamically to the loudness of each note. The specific scripting I wrote to correspond note pitch and velocity to box color and size is pictured <a href="https://drive.google.com/file/d/1xU04Zt-RA1KcL2ZdF7YmnUFJ0_vd5Qd7/view?usp=sharing" target="_blank">here</a>.
+              </ol>
+            </div>
+          </li>
+          <li><button class="collapsible">more compelling,</button>
+            <div class="content">
+              <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/568279631?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="adopt a pet"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+              <p><b>Prompt:</b> create a video with Premier Pro using only free found footage from <a href="http://archive.org" target="_blank">archive.org</a>.</p>
+                <br>
+              <p><b>Intent:</b> illuminate the moral inconsistency that occurs when people support animal welfare for cats and dogs, but also eat meat.</p>
+              <br>
+              <p><b>Process:</b></p>
+              <ol>
+                <li>I superimposed footage from multiple animal welfare videos over a large portion of a television ad for an animal shelter.</li>
+              </ol>
+            </div>
+          </li>
+          <li><button class="collapsible">sound awesome</button>
+            <div class="content">
+              <p><b>Drive Link: </b></p><a href="https://drive.google.com/file/d/1URuYGr_yQxiMa5_P7_GYeZ2u1UlBP3Qu/view?usp=sharing" target="_blank" style="font-size:70%;">Falling Backwards (Early Mix, Scratch Vocals)</a>
+              <br>
+              <p><b>Intent:</b> produce a medley containing motifs from multiple songs that feels like a cohesive product. And is also awesome. Part of a larger five-song album.</p>
+              <br>
+              <p><b>Song Timeline:</b></p>
+              <ol>
+                <li><b>0:00-2:50 :</b> 'Falling Backwards'</li>
+                <li><b>2:51-4:36 :</b> 'Falling Backwards' outro jam</li>
+                <li><b>4:37-5:13 :</b> Atmospheric feedback</li>
+                <li><b>5:14-5:55 :</b> Adapted chorus from 'The Beggar'</li>
+                <li><b>5:56-6:22 :</b> Build to atemporality</li>
+                <li><b>6:22-8:00 :</b> Jam over adapted instrumental verse from 'The Beggar'</li>
+                <li><b>8:00-    :</b> Fade into feedback</li>
+              </ol>
+              <br>
+              <p>I produced, recorded, and am mixing the track. I also played bass, synthesizer, and the feeding-back guitar on the left, and was some of the disembodied voices in the chorus.</p>
+              <br>
+              <p><a href="music.html" target="_blank">Link to my full music portfolio</a>
 
-      </p>
-      <div style="opacity:0;">
-      <br>
-      <p>See Also:</p>
+            </div>
+          </li>
+          <li><button class="collapsible">& more.</button>
+            <div class="content">
+                <p><a href="music.html" target="_blank">my full music portfolio</a> |
+                <a href="photos.html" target="_blank">some photos I took</a> |
+                <a href="https://reverb.com/news?author_name=Cole+Makuch" target="_blank">some articles I wrote a long time ago</a> |
+                <a href="https://drive.google.com/file/d/15KcnRszzvCWZYRILCe3Z601gVeMcA0Kr/view?usp=sharing" target="_blank">stickman</a>
+
+              </p>
+            </div>
+          </li>
+      </ul>
+      <p>Here's my <a href="http://colemakuch.com/cole-makuch-resume.pdf" target="_blank">resume</a>, where you can find my contact info.</p>
+     </div>
+      <!-- <p>See Also:</p>
       <ul>
         <li><a href="photos.html">photography sample</a></li>
         <li><a href="writing.html">writing sample</a></li>
-      </ul>
+      </ul> -->
 </div>
 
- </div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+
+
+
+
+
   <!-- <div class="links">
     <p>I also:</p>
     <ul>

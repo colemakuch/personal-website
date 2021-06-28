@@ -21,8 +21,6 @@ body{
 body{
       overflow-x: hidden;
 }
-
-
 .name{
   width:23vw;
   float:left;
@@ -34,7 +32,6 @@ svg {
   text-shadow: .4em .4em .125em white;
 }
 
-
 .name :hover{
   text-shadow: 2px 2px 2px #760089, 3px 3px 2px #FF8C00, 4px 4px 2px #FFEF00, 5px 5px 5px #00811F, 6px 6px 2px #0044FF, 7px 7px 2px #760089;
 transition: text-shadow .2s;
@@ -44,13 +41,13 @@ transition: text-shadow .2s;
 a{
   font-size: 2vw;
 }
-li{
+ul li{
   list-style: none;
 }
 ul{
     padding-left: 0px;
 }
-#social-buttons{
+/* #social-buttons{
   position:fixed;
   left: 0;
 }
@@ -59,12 +56,12 @@ ul{
   padding-left: 1vw;
   color: #45CF94;
   /*text-shadow: 1px 1px 2px black; */
-}
+/* }
 #social-buttons a :hover {
   text-shadow: 1px 1px 1px blue;
   transition: text-shadow .2s;
  -webkit-transition: text-shadow .2s;
-}
+} */
 .header{
   /* border:2px solid blue; */
   display:flow-root;
@@ -102,22 +99,25 @@ a:hover{
   text-shadow: 3px 3px 3px black!important;
 }
 .about{
-  width: 40vw;
   float:left;
+  width: 40%;
 }
 .links p{
   font-size: 2vw;
   margin-top: 0;
   margin-bottom: 0;
 }
-.about p{
+.content ol li{
+  display: inline-block;
+}
+.about p,li{
   margin-top: 0;
   margin-bottom: 0;
   /* font-style: italic; */
   font-size: 2vw;
   /* text-shadow: 2px 2px 1px black; */
 }
-.child{
+/* .child{
   height:100%;
   transition: .2s;
   text-align: center;
@@ -160,7 +160,7 @@ a:hover{
 }
 #affil{
   /* font-style: italic; */
-  font-weight: 400;
+  /* font-weight: 400;
   margin-bottom: 2vh;
 }
 #resume{
@@ -178,7 +178,57 @@ text-align: right;
 
   font-size: 3vh;
     color: blue;
+} */
+.collapsible {
+  font-family: 'IBM Plex Sans', sans-serif;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 2vw;
+  background-color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  /* font-style: italic; */
+  font-size: 2vw;
+  color: rgb(237,127,147);
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-skip: ink;
+  text-decoration-color: blue;
 }
+
+.active, .collapsible:hover {
+}
+
+.collapsible:after {
+  font-weight: bold;
+  float: center;
+
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  line-height: 65%!important;
+}
+.content p,.content li{
+  all:initial;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 70%;
+}
+.content a{
+  font-size: 100%;
+}
+
 @media only screen and (max-width: 900px) {
   .body .links li{
     font-size: 4.3vw;
@@ -189,9 +239,12 @@ text-align: right;
     color: blue;
     font-size: 4.5vw;
   }
-  .about p,a{
+  .about p,a,li{
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 4vw;
+  }
+  .collapsible{
     font-size: 4vw;
   }
   .links p{
@@ -221,5 +274,8 @@ text-align: right;
   }
   .name, svg{
         text-shadow: none!important;
+  }
+  .about{
+    width: 100%;
   }
 }
