@@ -39,7 +39,7 @@ transition: text-shadow .2s;
 }
 
 a{
-  font-size: 2vw;
+  font-size: 1.8vw;
 }
 ul li{
   list-style: none;
@@ -67,12 +67,12 @@ ul{
   display:flow-root;
   margin: : 0 auto;
 }
-.body .links{
+/* .body .links{
 padding-top: 2vw;
  clear:both;
   font-size: 2vw;
 
-}
+} */
 .links-wrapper{
   width: 40vw;
   float:left;
@@ -80,11 +80,11 @@ padding-top: 2vw;
 }
 
 
-.body .links li{
+/* .body .links li{
   /* padding-top: 1vh; */
-  /* text-shadow: 2px 2px 1px black; */
+  /* text-shadow: 2px 2px 1px black;
   font-size: 2.5vh;
-}
+} */
 a{
   text-decoration: none;
   /* color: #A7224A; */
@@ -95,9 +95,9 @@ a:hover{
   text-decoration: underline;
 }
 
-.links a :hover{
+/* .links a :hover{
   text-shadow: 3px 3px 3px black!important;
-}
+} */
 .about{
   float:left;
   width: 40%;
@@ -114,7 +114,7 @@ a:hover{
   margin-top: 0;
   margin-bottom: 0;
   /* font-style: italic; */
-  font-size: 2vw;
+  font-size: 1.8vw;
   /* text-shadow: 2px 2px 1px black; */
 }
 /* .child{
@@ -182,16 +182,15 @@ text-align: right;
 .collapsible {
   font-family: 'IBM Plex Sans', sans-serif;
   cursor: pointer;
-  width: 100%;
+  width: 50%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 2vw;
   background-color: #fff;
   margin-top: 0;
   margin-bottom: 0;
   /* font-style: italic; */
-  font-size: 2vw;
+  font-size: 1.8vw;
   color: rgb(237,127,147);
   text-decoration: underline;
   text-decoration-style: solid;
@@ -200,17 +199,19 @@ text-align: right;
 }
 
 .active, .collapsible:hover {
+  text-decoration: none;
+  background-color: blue;
 }
 
 .collapsible:after {
   font-weight: bold;
-  float: center;
-
+  /* float: left;
+content: "\279D"; */
   margin-left: 5px;
 }
 
 .active:after {
-  content: "\2212";
+  /* content: "\2212"; */
 }
 
 .content {
