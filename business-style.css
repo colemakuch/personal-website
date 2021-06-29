@@ -234,12 +234,12 @@ content: "\279D"; */
   .body .links li{
     font-size: 4.3vw;
   }
-  .body .links li a{
+  /* .body .links li a{
     text-decoration: none;
-    color: rgb(237,127,147);
+    /* color: rgb(237,127,147);
     color: blue;
     font-size: 4.5vw;
-  }
+  } */
   .about p,a,li{
     margin-top: 0;
     margin-bottom: 0;
