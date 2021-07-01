@@ -13,8 +13,8 @@ body{
   background-color: #fff;
   /* background-color: rgb(195,141,193); */
   font-family: 'IBM Plex Sans', sans-serif;
-  color: #444;
-  color: rgb(237,127,147);
+  /* color: #444; */
+  /* color: rgb(237,127,147); */
   width:85vw;
   margin: auto;
 }
@@ -89,7 +89,7 @@ a{
   text-decoration: none;
   /* color: #A7224A; */
   color: rgb(237,127,147);
-  color: blue;
+  /* color: blue; */
 }
 a:hover{
   text-decoration: underline;
@@ -191,16 +191,17 @@ text-align: right;
   margin-bottom: 0;
   /* font-style: italic; */
   font-size: 1.5vw;
-  color: rgb(237,127,147);
+  /* color: rgb(237,127,147); */
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-skip: ink;
-  text-decoration-color: blue;
+  text-decoration-color: rgb(237,127,147);
 }
 
 .active, .collapsible:hover {
   text-decoration: none;
-  background-color: blue;
+  background-color: rgb(237,127,147);
+  color: white;
 }
 
 .collapsible:after {
