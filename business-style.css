@@ -196,6 +196,7 @@ text-align: right;
   text-decoration-style: solid;
   text-decoration-skip: ink;
   text-decoration-color: rgb(237,127,147);
+  margin-left: .4em;
 }
 
 .active, .collapsible:hover {
@@ -207,7 +208,7 @@ text-align: right;
 .collapsible:after {
   font-weight: bold;
   /* float: left;
-content: "\279D"; */
+content: ">"; */
   margin-left: 5px;
 }
 
