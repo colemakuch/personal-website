@@ -15,3 +15,38 @@ h2{
 #main-link{
   text-decoration: none;
 }
+.collapsible {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  background-color: #fff;
+}
+.bluetext{
+  color: #FFC0CB;
+}
+
+.active, .collapsible:hover {
+}
+
+.collapsible:after {
+  content: '\002B';
+  font-weight: bold;
+  float: center;
+
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
