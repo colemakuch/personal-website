@@ -12,6 +12,10 @@ h2{
   font-size: 120%;
   font-weight: normal;
 }
+h1{
+  font-size: 140%;
+  font-weight: bold;
+}
 #main-link{
   text-decoration: none;
 }
